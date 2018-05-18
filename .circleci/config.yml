@@ -1,0 +1,23 @@
+version: 2
+
+aliases: &build
+  environment:
+    BASH_ENV: "~/.nix-profile/etc/profile.d/nix.sh"
+
+  machine: true
+
+  parallelism: 2
+
+  steps:
+    - checkout
+
+    - run:
+        name: install nixpkgs
+        command: curl https://nixos.org/nix/install | sh
+
+    - run:
+        name: ensure that project builds ok
+        command: nix-build --no-out-link
+
+jobs:
+  build: *build
