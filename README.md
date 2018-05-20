@@ -1,8 +1,6 @@
 # Example for `haskell-overridez fetch` [![CircleCI](https://circleci.com/gh/adetokunbo/example-fetched-haskell-overridez.svg?style=svg)](https://circleci.com/gh/adetokunbo/example-fetched-haskell-overridez)
 
-This is a demonstration project that provides a simple target for `haskell-overridez fetch`, a command that enables easy syncing of [nix][] override configuration between haskell projects that use `haskell-overridez`.
-
-__Warning__ `haskell-overridez fetch` is not yet released. Track [this feature request][]; it can be used when that's closed.
+This is a demonstration project that provides a simple target for `haskell-overridez fetch`, a command that enables easy syncing of [nix][] override configuration between haskell projects that mange nix overrides with `haskell-overridez`.
 
 ## Usage
 
