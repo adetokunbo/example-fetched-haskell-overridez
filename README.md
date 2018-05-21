@@ -16,7 +16,7 @@ This is a demonstration project that provides a simple target for `haskell-overr
 
   ```bash
 
-  haskell-overridez fetch https://github.com/adetokunbo/haskell-overridez
+  haskell-overridez fetch https://github.com/adetokunbo/example-fetched-haskell-overridez
 
   ```
 
