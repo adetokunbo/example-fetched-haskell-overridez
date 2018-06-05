@@ -8,7 +8,7 @@ This is a demonstration project that provides a simple target for `haskell-overr
 
   ```bash
 
-  nix-env --install -f https://github.com/adetokunbo/haskell-overridez/archive/v0.9.2.tar.gz
+  nix-env --install -f https://github.com/adetokunbo/haskell-overridez/archive/v0.10.0.0.tar.gz
 
   ```
 
