@@ -1,8 +1,8 @@
 let
   pkgs = import <nixpkgs> {};
   overridez = fetchTarball {
-    url = "https://github.com/adetokunbo/haskell-overridez/archive/v0.9.2.tar.gz";
-    sha256 = "0slnz7n78ww13gpm8v4g8f5m9b8csaq6wbwb615jkqcrif8vjvqv";
+    url = "https://github.com/adetokunbo/haskell-overridez/archive/v0.10.0.0.tar.gz";
+    sha256 = "1gjwwp6vsdr3vkzj49dqyxd0ikgbscnj6yy11kvznnzi4bk4qh4n";
   };
 in
   import overridez { inherit pkgs; }
