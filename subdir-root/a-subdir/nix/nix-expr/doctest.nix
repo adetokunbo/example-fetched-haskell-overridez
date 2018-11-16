@@ -5,8 +5,8 @@
 }:
 mkDerivation {
   pname = "doctest";
-  version = "0.15.0";
-  sha256 = "13c1l8cc8rzbxgpnaa75x13z9vnr7kffng18czh8gwpv83vn5bpi";
+  version = "0.16.0.1";
+  sha256 = "106pc4rs4cfym7754gzdgy36dm9aidwmnqpjm9k7yq1hfd4pallv";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

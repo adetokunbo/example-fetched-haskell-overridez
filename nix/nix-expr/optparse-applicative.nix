@@ -1,14 +1,10 @@
-{ mkDerivation, ansi-wl-pprint, base, bytestring, fetchgit, process
+{ mkDerivation, ansi-wl-pprint, base, bytestring, process
 , QuickCheck, stdenv, transformers, transformers-compat
 }:
 mkDerivation {
   pname = "optparse-applicative";
-  version = "0.14.2.0";
-  src = fetchgit {
-    url = "https://github.com/pcapriotti/optparse-applicative";
-    sha256 = "1b19wjgsnlr5399qp0qhk2w1bqyzvabkkxr2iw3jkfx4f6zb2lp0";
-    rev = "72ae4b69875e1702de36f083b32b106f6da6926e";
-  };
+  version = "0.14.3.0";
+  sha256 = "0qvn1s7jwrabbpmqmh6d6iafln3v3h9ddmxj2y4m0njmzq166ivj";
   libraryHaskellDepends = [
     ansi-wl-pprint base process transformers transformers-compat
   ];
