@@ -1,17 +1,13 @@
 { mkDerivation, ansi-wl-pprint, async, base, bytestring, clock
-, containers, criterion, directory, doctest, exceptions, fetchgit
-, foldl, hostname, managed, optional-args, optparse-applicative
-, process, semigroups, stdenv, stm, system-fileio, system-filepath
+, containers, criterion, directory, doctest, exceptions, foldl
+, hostname, managed, optional-args, optparse-applicative, process
+, semigroups, stdenv, stm, system-fileio, system-filepath
 , temporary, text, time, transformers, unix, unix-compat
 }:
 mkDerivation {
   pname = "turtle";
-  version = "1.5.8";
-  src = fetchgit {
-    url = "https://github.com/Gabriel439/Haskell-Turtle-Library";
-    sha256 = "0y7m94ll5ljjifshczb344vkbw9jkz020qmkpnqbwmjlcncm47rw";
-    rev = "60b5bc7bf49058068c4da64201a83b01d92c7f35";
-  };
+  version = "1.5.12";
+  sha256 = "0hacgsgs64fgp8k562gyly8i19zz18fj0v1v2m5g26vaj356ys5k";
   libraryHaskellDepends = [
     ansi-wl-pprint async base bytestring clock containers directory
     exceptions foldl hostname managed optional-args
